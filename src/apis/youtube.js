@@ -6,7 +6,7 @@ const KEY = 'AIzaSyAHUQQArxzKvILPFCzz9gI58GFnJrlDSJI'
 export default axios.create({
     baseURL: 'https://www.googleapis.com/youtube/v3/',
     params: {
-        // channelId: 'UCZ1J6ZuCcJJr1iOEkUzbVPA',
+        channelId: 'UCZ1J6ZuCcJJr1iOEkUzbVPA',
         part: 'snippet', 
         type: 'video',
         maxResults: 5,
